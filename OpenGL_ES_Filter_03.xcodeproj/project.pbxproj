@@ -12,6 +12,23 @@
 		F22D296A24E54C3400B6207B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22D296924E54C3400B6207B /* Assets.xcassets */; };
 		F22D296D24E54C3400B6207B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22D296B24E54C3400B6207B /* LaunchScreen.storyboard */; };
 		F22D297024E54C3400B6207B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F22D296F24E54C3400B6207B /* main.m */; };
+		F22D297D24E6460C00B6207B /* FilterBarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F22D297924E6460C00B6207B /* FilterBarCell.m */; };
+		F22D297E24E6460C00B6207B /* FilterBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F22D297A24E6460C00B6207B /* FilterBar.m */; };
+		F22D298124E6462C00B6207B /* xiaochen.png in Resources */ = {isa = PBXBuildFile; fileRef = F22D298024E6462C00B6207B /* xiaochen.png */; };
+		F22D298524E6466700B6207B /* Normal.vsh in Resources */ = {isa = PBXBuildFile; fileRef = F22D298324E6466700B6207B /* Normal.vsh */; };
+		F22D298624E6466700B6207B /* Normal.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F22D298424E6466700B6207B /* Normal.fsh */; };
+		F22D298924E6484C00B6207B /* Scale.vsh in Resources */ = {isa = PBXBuildFile; fileRef = F22D298824E6484C00B6207B /* Scale.vsh */; };
+		F22D298B24E6485700B6207B /* Scale.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F22D298A24E6485700B6207B /* Scale.fsh */; };
+		F22D298E24E65A9C00B6207B /* SoulOut.vsh in Resources */ = {isa = PBXBuildFile; fileRef = F22D298D24E65A9C00B6207B /* SoulOut.vsh */; };
+		F22D299024E65AA800B6207B /* SoulOut.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F22D298F24E65AA800B6207B /* SoulOut.fsh */; };
+		F22D299324E65DC000B6207B /* Shake.vsh in Resources */ = {isa = PBXBuildFile; fileRef = F22D299224E65DC000B6207B /* Shake.vsh */; };
+		F22D299524E65DCB00B6207B /* Shake.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F22D299424E65DCB00B6207B /* Shake.fsh */; };
+		F22D299824E6629600B6207B /* ShineWhite.vsh in Resources */ = {isa = PBXBuildFile; fileRef = F22D299724E6629600B6207B /* ShineWhite.vsh */; };
+		F22D299A24E662A300B6207B /* ShineWhite.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F22D299924E662A300B6207B /* ShineWhite.fsh */; };
+		F22D299D24E6675100B6207B /* Glitch.vsh in Resources */ = {isa = PBXBuildFile; fileRef = F22D299C24E6675100B6207B /* Glitch.vsh */; };
+		F22D299F24E6675D00B6207B /* Glitch.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F22D299E24E6675D00B6207B /* Glitch.fsh */; };
+		F22D29A124E66BCF00B6207B /* Vertigo.vsh in Resources */ = {isa = PBXBuildFile; fileRef = F22D29A024E66BCF00B6207B /* Vertigo.vsh */; };
+		F22D29A424E66BED00B6207B /* Vertigo.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F22D29A324E66BED00B6207B /* Vertigo.fsh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +41,25 @@
 		F22D296C24E54C3400B6207B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F22D296E24E54C3400B6207B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F22D296F24E54C3400B6207B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F22D297924E6460C00B6207B /* FilterBarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterBarCell.m; sourceTree = "<group>"; };
+		F22D297A24E6460C00B6207B /* FilterBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterBar.m; sourceTree = "<group>"; };
+		F22D297B24E6460C00B6207B /* FilterBarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterBarCell.h; sourceTree = "<group>"; };
+		F22D297C24E6460C00B6207B /* FilterBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterBar.h; sourceTree = "<group>"; };
+		F22D298024E6462C00B6207B /* xiaochen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiaochen.png; sourceTree = "<group>"; };
+		F22D298324E6466700B6207B /* Normal.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Normal.vsh; sourceTree = "<group>"; };
+		F22D298424E6466700B6207B /* Normal.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Normal.fsh; sourceTree = "<group>"; };
+		F22D298824E6484C00B6207B /* Scale.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Scale.vsh; sourceTree = "<group>"; };
+		F22D298A24E6485700B6207B /* Scale.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Scale.fsh; sourceTree = "<group>"; };
+		F22D298D24E65A9C00B6207B /* SoulOut.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = SoulOut.vsh; sourceTree = "<group>"; };
+		F22D298F24E65AA800B6207B /* SoulOut.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = SoulOut.fsh; sourceTree = "<group>"; };
+		F22D299224E65DC000B6207B /* Shake.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Shake.vsh; sourceTree = "<group>"; };
+		F22D299424E65DCB00B6207B /* Shake.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Shake.fsh; sourceTree = "<group>"; };
+		F22D299724E6629600B6207B /* ShineWhite.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = ShineWhite.vsh; sourceTree = "<group>"; };
+		F22D299924E662A300B6207B /* ShineWhite.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = ShineWhite.fsh; sourceTree = "<group>"; };
+		F22D299C24E6675100B6207B /* Glitch.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Glitch.vsh; sourceTree = "<group>"; };
+		F22D299E24E6675D00B6207B /* Glitch.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Glitch.fsh; sourceTree = "<group>"; };
+		F22D29A024E66BCF00B6207B /* Vertigo.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Vertigo.vsh; sourceTree = "<group>"; };
+		F22D29A324E66BED00B6207B /* Vertigo.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Vertigo.fsh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,16 +92,107 @@
 		F22D295C24E54C3400B6207B /* OpenGL_ES_Filter_03 */ = {
 			isa = PBXGroup;
 			children = (
+				F22D298024E6462C00B6207B /* xiaochen.png */,
 				F22D295D24E54C3400B6207B /* AppDelegate.h */,
 				F22D295E24E54C3400B6207B /* AppDelegate.m */,
 				F22D296324E54C3400B6207B /* ViewController.h */,
 				F22D296424E54C3400B6207B /* ViewController.m */,
+				F22D297F24E6461C00B6207B /* Filter */,
+				F22D297824E6460C00B6207B /* Tool */,
 				F22D296924E54C3400B6207B /* Assets.xcassets */,
 				F22D296B24E54C3400B6207B /* LaunchScreen.storyboard */,
 				F22D296E24E54C3400B6207B /* Info.plist */,
 				F22D296F24E54C3400B6207B /* main.m */,
 			);
 			path = OpenGL_ES_Filter_03;
+			sourceTree = "<group>";
+		};
+		F22D297824E6460C00B6207B /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				F22D297924E6460C00B6207B /* FilterBarCell.m */,
+				F22D297A24E6460C00B6207B /* FilterBar.m */,
+				F22D297B24E6460C00B6207B /* FilterBarCell.h */,
+				F22D297C24E6460C00B6207B /* FilterBar.h */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		F22D297F24E6461C00B6207B /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				F22D29A224E66BDC00B6207B /* Vertigo */,
+				F22D299B24E6673F00B6207B /* Glitch */,
+				F22D299624E6628900B6207B /* ShineWhite */,
+				F22D299124E65DB300B6207B /* Shake */,
+				F22D298C24E65A8E00B6207B /* SoulOut */,
+				F22D298724E6483800B6207B /* Scale */,
+				F22D298224E6464C00B6207B /* Normal */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		F22D298224E6464C00B6207B /* Normal */ = {
+			isa = PBXGroup;
+			children = (
+				F22D298424E6466700B6207B /* Normal.fsh */,
+				F22D298324E6466700B6207B /* Normal.vsh */,
+			);
+			path = Normal;
+			sourceTree = "<group>";
+		};
+		F22D298724E6483800B6207B /* Scale */ = {
+			isa = PBXGroup;
+			children = (
+				F22D298824E6484C00B6207B /* Scale.vsh */,
+				F22D298A24E6485700B6207B /* Scale.fsh */,
+			);
+			path = Scale;
+			sourceTree = "<group>";
+		};
+		F22D298C24E65A8E00B6207B /* SoulOut */ = {
+			isa = PBXGroup;
+			children = (
+				F22D298D24E65A9C00B6207B /* SoulOut.vsh */,
+				F22D298F24E65AA800B6207B /* SoulOut.fsh */,
+			);
+			path = SoulOut;
+			sourceTree = "<group>";
+		};
+		F22D299124E65DB300B6207B /* Shake */ = {
+			isa = PBXGroup;
+			children = (
+				F22D299224E65DC000B6207B /* Shake.vsh */,
+				F22D299424E65DCB00B6207B /* Shake.fsh */,
+			);
+			path = Shake;
+			sourceTree = "<group>";
+		};
+		F22D299624E6628900B6207B /* ShineWhite */ = {
+			isa = PBXGroup;
+			children = (
+				F22D299724E6629600B6207B /* ShineWhite.vsh */,
+				F22D299924E662A300B6207B /* ShineWhite.fsh */,
+			);
+			path = ShineWhite;
+			sourceTree = "<group>";
+		};
+		F22D299B24E6673F00B6207B /* Glitch */ = {
+			isa = PBXGroup;
+			children = (
+				F22D299C24E6675100B6207B /* Glitch.vsh */,
+				F22D299E24E6675D00B6207B /* Glitch.fsh */,
+			);
+			path = Glitch;
+			sourceTree = "<group>";
+		};
+		F22D29A224E66BDC00B6207B /* Vertigo */ = {
+			isa = PBXGroup;
+			children = (
+				F22D29A024E66BCF00B6207B /* Vertigo.vsh */,
+				F22D29A324E66BED00B6207B /* Vertigo.fsh */,
+			);
+			path = Vertigo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +252,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F22D298924E6484C00B6207B /* Scale.vsh in Resources */,
+				F22D298624E6466700B6207B /* Normal.fsh in Resources */,
 				F22D296D24E54C3400B6207B /* LaunchScreen.storyboard in Resources */,
+				F22D298B24E6485700B6207B /* Scale.fsh in Resources */,
+				F22D29A424E66BED00B6207B /* Vertigo.fsh in Resources */,
+				F22D299324E65DC000B6207B /* Shake.vsh in Resources */,
+				F22D299824E6629600B6207B /* ShineWhite.vsh in Resources */,
+				F22D298124E6462C00B6207B /* xiaochen.png in Resources */,
+				F22D298E24E65A9C00B6207B /* SoulOut.vsh in Resources */,
+				F22D299D24E6675100B6207B /* Glitch.vsh in Resources */,
+				F22D298524E6466700B6207B /* Normal.vsh in Resources */,
+				F22D29A124E66BCF00B6207B /* Vertigo.vsh in Resources */,
 				F22D296A24E54C3400B6207B /* Assets.xcassets in Resources */,
+				F22D299F24E6675D00B6207B /* Glitch.fsh in Resources */,
+				F22D299024E65AA800B6207B /* SoulOut.fsh in Resources */,
+				F22D299524E65DCB00B6207B /* Shake.fsh in Resources */,
+				F22D299A24E662A300B6207B /* ShineWhite.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +280,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F22D296524E54C3400B6207B /* ViewController.m in Sources */,
+				F22D297D24E6460C00B6207B /* FilterBarCell.m in Sources */,
 				F22D295F24E54C3400B6207B /* AppDelegate.m in Sources */,
+				F22D297E24E6460C00B6207B /* FilterBar.m in Sources */,
 				F22D297024E54C3400B6207B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,15 +415,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = L3BQHG3R36;
 				INFOPLIST_FILE = OpenGL_ES_Filter_03/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.yuanfangzhuye.OpenGL-ES-Filter-03";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanfangzhuye.filter03;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = canon_darwin_stg_dev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -288,15 +435,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = L3BQHG3R36;
 				INFOPLIST_FILE = OpenGL_ES_Filter_03/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.yuanfangzhuye.OpenGL-ES-Filter-03";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanfangzhuye.filter03;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = canon_darwin_stg_dev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
